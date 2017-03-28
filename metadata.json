@@ -1,0 +1,10 @@
+{
+    "dangerous": false, 
+    "uuid": "window-list-controller@edkovalev", 
+    "name": "Window List Controller", 
+    "cinnamon-version": [
+        "3.0", 
+        "3.2"
+    ], 
+    "description": "Switch and move windows in your taskbar with configurable hot keys"
+}

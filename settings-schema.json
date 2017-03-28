@@ -1,0 +1,76 @@
+{
+  "header" : {
+    "type" : "header",
+    "description" : "Hot Keys"
+   },
+  "nextWindowHotKey" : {
+    "type" : "keybinding",
+    "description" : "Switch to next window",
+    "default" : "<Shift><Alt>Right"
+  },
+  "previousWindowHotKey" : {
+    "type" : "keybinding",
+    "description" : "Switch to previous window",
+    "default" : "<Shift><Alt>Left"
+  },
+  "moveRightHotKey": {
+    "type" : "keybinding",
+    "description" : "Move window right",
+    "default" : "<Super><Alt>Right"
+  },
+  "moveLeftHotKey": {
+    "type" : "keybinding",
+    "description" : "Move window left",
+    "default" : "<Super><Alt>Left"
+  },
+  "window1HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 1",
+    "default" : "<Super>1"
+  },
+  "window2HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 2",
+    "default" : "<Super>2"
+  },
+  "window3HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 3",
+    "default" : "<Super>3"
+  },
+  "window4HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 4",
+    "default" : "<Super>4"
+  },
+  "window5HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 5",
+    "default" : "<Super>5"
+  },
+  "window6HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 6",
+    "default" : "<Super>6"
+  },
+  "window7HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 7",
+    "default" : "<Super>7"
+  },
+  "window8HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 8",
+    "default" : "<Super>8"
+  },
+  "window9HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 9",
+    "default" : "<Super>9"
+  },
+  "window10HotKey": {
+    "type" : "keybinding",
+    "description" : "Switch to window 10",
+    "default" : "<Super>0"
+  }
+}
