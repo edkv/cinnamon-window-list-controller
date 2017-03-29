@@ -95,8 +95,12 @@ function moveActiveWindow(direction) {
   const windowList = getWindowList();
   const windows = getAllWindows();
   const activeWindowIndex = getActiveWindowIndex(windows);
-  const activeWindow = windows[activeWindowIndex];
 
+  if (activeWindowIndex === null) {
+    return;
+  }
+
+  const activeWindow = windows[activeWindowIndex];
   let currentWindowAtNewPosition;
 
   if (direction > 0) {
@@ -115,9 +119,11 @@ function getNextWindow() {
   const windows = getWorkspaceWindows();
   const activeWindowIndex = getActiveWindowIndex(windows);
 
-  if (activeWindowIndex === windows.length - 1) {
+  if (activeWindowIndex === null) {
+    return null;
+  } else if (activeWindowIndex === windows.length - 1) {
     return windows[0];
-  } else if (activeWindowIndex !== null) {
+  } else {
     return windows[activeWindowIndex + 1];
   }
 }
@@ -126,9 +132,11 @@ function getPreviousWindow() {
   const windows = getWorkspaceWindows();
   const activeWindowIndex = getActiveWindowIndex(windows);
 
-  if (activeWindowIndex === 0) {
+  if (activeWindowIndex === null) {
+    return null;
+  } else if (activeWindowIndex === 0) {
     return windows[windows.length - 1];
-  } else if (activeWindowIndex !== null) {
+  } else {
     return windows[activeWindowIndex - 1];
   }
 }
