@@ -2,7 +2,8 @@
     "uuid": "window-list-controller@edkovalev", 
     "cinnamon-version": [
         "3.0", 
-        "3.2"
+        "3.2",
+        "3.4"
     ], 
     "url": "https://github.com/edkv/cinnamon-window-list-controller", 
     "dangerous": false, 
