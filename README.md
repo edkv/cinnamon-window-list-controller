@@ -7,7 +7,7 @@ opened windows.
 
 ```
 cd ~/.local/share/cinnamon/extensions
-git clone https://github.com/edkv/cinnamon-window-list-controller.git window-list-controller@edkovalev
+git clone https://github.com/edkv/cinnamon-window-list-controller.git window-list-controller@edkv
 ```
 
 And then activate it in System Settings / Extensions.
